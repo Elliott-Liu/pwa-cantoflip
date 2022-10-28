@@ -111,7 +111,7 @@ input[type=button], input[type=text], #translated-text {
   border-radius: 5px;
 }
 
-input[type=text] {
+input[type=text], #translated-text {
   display:flex;
   justify-content: center;
   align-items: center;
