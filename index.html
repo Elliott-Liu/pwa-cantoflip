@@ -174,14 +174,15 @@
 			<h1>Cantoflip</h1>
 		</header>
 		<main>
-			<p>Hello, world!</p>
+			<p id="para">Hello, world!</p>
 		</main>
 		<script>
 			if ("serviceWorker" in navigator) {
 				window.addEventListener("load", function () {
-				navigator.serviceWorker.register("/service-worker.js");
+					navigator.serviceWorker.register("/service-worker.js");
 				});
 			}
 		</script>
+		<script src="script/main.js" defer></script>
 	</body>
 </html>
